@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Enter description here.">
+    <title>HTML FORM</title>
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+
+<body>
+    <h1>Durmit Gym Membership</h1>
+    <form>
+        <fieldset>
+            <legend><b>Personal Info</b></legend>
+            <div>
+                <label for="First Name">First Name</label>
+                <input type="text" name="First Name" id="First Name" required placeholder="First Name">
+            </div>
+
+            <div>
+                <label for="Last Name">Last Name</label>
+                <input type="text" name="Last Name" id="Last Name" required placeholder="Last Name">
+            </div>
+            <div>
+                <label for="Username">Username</label>
+                <input type="text" name="Username" id="Userame" autocomplete="Username" required>
+            </div>
+            <div>
+                <label for="email">Enter email address</label>
+                <input type="email" name="email" id="email" required placeholder="email">
+            </div>
+            <div>
+                <label for="password">Enter Password</label>
+                <input required minlength="5" type="password" id="password" placeholder="password" name="password"
+                    aria-describedby="password-minlength">
+                <span id="password-minlength">Enter at least 5 characters</span>
+                <!---<label for="password">Enter Your Password</label>
+                <input type="password" name="password" id="password" required>-->
+            </div>
+            <div>
+                <label for="password">Confirm Password</label>
+                <input required minlength="5" type="password" id="password" placeholder="password" name="password"
+                    aria-describedby="password-minlength">
+                <span id="password-minlength">Enter at least 5 characters</span>
+            </div>
+            <div>
+                <label for="tel">Phone Number (optional)</label>
+                <input type="tel" id="tel" name="tel">
+
+            </div>
+        </fieldset>
+    </form>
+    <br>
+    <form>
+        <fieldset>
+            <legend><b>Add Payment</b></legend>
+            <div>
+                <label for="Number">Card Number</label>
+                <input type="Number" id="Number" name="Number" required placeholder="Card Number">
+            </div>
+            <div>
+                <label for="month">Expires</label>
+                <input type="month" name="month" id="month">
+            </div>
+            <div>
+                <label for="Number">Cvv</label>
+                <input type="Number" id="Number" name="Number" required>
+            </div>
+        </fieldset>
+    </form>
+    <br>
+    <form>
+        <fieldset>
+            <legend><b>Billing Name</b></legend>
+            <div>
+                <label for="First Name">First Name</label>
+                <input type="text" name="name" id=" First Name" autocomplete="name" required>
+            </div>
+            <div>
+                <label for="First Name">Last Name</label>
+                <input type="text" name="name" id="Last Name" autocomplete="name" required>
+            </div>
+            
+
+
+        </fieldset>
+    </form>
+    <br>
+    <form>
+        <fieldset>
+            <legend><b>Billing Address</b></legend>
+            <div>
+                <label for="Street">Street</label>
+                <input type="text" id="street" name="street">
+            </div>
+            <div>
+                <label for="city">City</label>
+                <input type="text" id="city" name="city">
+            </div>
+            <div>
+                <label for="state">State</label>
+                <input type="text" id="state" name="state">
+            </div>
+        </fieldset>
+        <button>Submit</button>
+        
+    </form>
+    <a href="index.html" target="blank"><button>Go Back</button></a>
+</body>
+
+</html>

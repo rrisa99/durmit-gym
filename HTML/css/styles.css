@@ -1,0 +1,67 @@
+body {
+    width: auto;
+    viewport-fit: auto;
+    background-image: url(../images/gym4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: 100%;
+    color:blue;
+    /*background-color: white;*/
+
+}
+
+label {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    float: left;
+    width: 10em;
+    margin: 7px;
+    text-align: left;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+h1 {
+    color: blue;
+    text-align: center;
+    border: 3px rgb(15, 142, 167);
+}
+
+input {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    width: 40%;
+    display: inline-block;
+    border-radius: 4px;
+    box-sizing: content-box;
+    margin: 7px;
+    font-size: 16px;
+}
+
+fieldset {
+   /* background-color: white;*/
+    border-color: rgb(15, 142, 167);
+    border-radius: 40px;
+    border-style: ridge;
+    border-width: 4px;
+
+}
+
+legend {
+    background-color: rgb(255, 255, 255);
+}
+
+button {
+    background-color:rgba(117, 171, 182,50 );
+    border: 3px solid;
+    color: rgb(0, 0, 0);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    /*display: inline-block;*/
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-color: rgb(15, 142, 167);
+}
